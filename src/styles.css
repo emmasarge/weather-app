@@ -65,7 +65,9 @@ h4 {
     padding-bottom: 50px;
     border-bottom: #5c7a7b 2.5px solid;
   }
-
+  .body-div {
+    width: 100%!important;
+}
 }
 @media (min-width: 650px) {
   .weather-card img {
