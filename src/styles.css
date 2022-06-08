@@ -53,12 +53,12 @@ h4 {
 }
 @media (min-width: 276px) { 
     .body-div {
-        width: 100%!important;
+        width: 100%;
     }
 }
 @media (min-width: 576px) { 
     .body-div {
-        width: 700px!important;
+        width: 700;
     }
 }
 @media (max-width: 600px) {
