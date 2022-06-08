@@ -13,21 +13,20 @@
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
   <link rel="stylesheet" href="src/styles.css">
 </head>
-
 <body>
-  <div class="mx-auto bg-blue">
-      <div class="row my-3 top-weather px-4 pt-4 pb-4">
+  <div class="mx-auto bg-blue container-fluid body-div">
+      <div class="my-3 top-weather px-4 pt-4 pb-4">
         <div class="ps-3 w-full">
-          <div class="container">
-          <div class="row justify-content-center" id="search-form">
-            <div class="col col-md-auto ">
-              <input type="text" class="me-2 ps-2 pb-1" id="input-text" />
+          <div class="container-fluid">
+          <div class="d-flex row justify-content-start ms-1" id="search-form">
+            <div class="col-sm-4 mt-2">
+              <input type="text" class="me-2 ps-2 pb-1 w-100" id="input-text" />
             </div>
-            <div class="col col-md-auto"> 
-              <button type="submit" value="search" class="search-btn btn" id="search-btn"> search</button>
+            <div class="col-sm-4 mt-2"> 
+              <button type="submit" value="search" class="search-btn btn w-100" id="search-btn"> search</button>
             </div>
-            <div class="col col-md-auto ">
-              <button class="search-btn btn" id="location-btn">current location</button>
+            <div class="col-sm-4 mt-2">
+              <button class="search-btn btn w-100" id="location-btn">current location</button>
             </div>
           </div>
         </div>
