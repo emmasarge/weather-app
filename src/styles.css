@@ -43,7 +43,8 @@ input[type="text"], textarea {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   color: #5c7a7b !important;
 }
 .weather-card {
