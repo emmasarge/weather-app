@@ -99,3 +99,7 @@ p {
   font-size: 22px;
   cursor: pointer;
 }
+.open-source {
+    font-size: 6px;
+    font-weight: 200;
+}
