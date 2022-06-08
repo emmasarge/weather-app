@@ -15,7 +15,8 @@ input {
   border: 0.5px #5c7a7b solid;
 }
 .card {
-  max-width: 750px;
+  display: flex;
+  max-width: 550px;
 }
 .search-btn {
   background-color: #5c7a7b;
