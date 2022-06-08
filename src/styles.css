@@ -3,13 +3,7 @@
   font-family: "Poppins", sans-serif;
 }
 .bg-blue {
-  background: rgb(182, 219, 221);
-  background: linear-gradient(
-    353deg,
-    rgba(182, 219, 221, 1) 30%,
-    rgba(131, 176, 176, 1) 57%,
-    rgba(240, 249, 247, 1) 76%
-  );
+  background:  rgba(240, 249, 247, 1);
 }
 input {
   border: 0.5px #5c7a7b solid;
@@ -17,6 +11,10 @@ input {
 .card {
   display: flex;
   max-width: 550px;
+}
+#input-text{
+    font-weight: 300;
+    margin-left: 3px;
 }
 .search-btn {
   background-color: #5c7a7b;
