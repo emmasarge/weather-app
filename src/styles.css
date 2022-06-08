@@ -4,32 +4,33 @@
 }
 .bg-blue {
   background:  rgba(240, 249, 247, 1);
+  border-radius: 2px;
+  width: 100%;
+  max-width: 600px;
 }
 input {
   border: 0.5px #5c7a7b solid;
-  border-radius: 4px;
+  border-radius: 2px;
 }
-.card {
-  display: flex;
-  max-width: 550px;
-}
+
 #input-text{
     font-weight: 300;
     margin-left: 3px;
+    width: 100%;
 }
 .search-btn {
   background-color: #5c7a7b;
   color: #fff;
   padding: 2px 20px;
   font-weight: 200;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 input[type="text"], textarea {
     background-color : #fafafa; 
   }
 .search-btn:hover {
-  box-shadow: 0 0 4px #5c7a7b;
   transition: all 1.2s ease-in-out;
+  padding: 0 2px;
 }
 .search-result {
   font-weight: 200px;
@@ -46,21 +47,13 @@ h3,
 h4 {
   color: #5c7a7b !important;
 }
-.card {
-  border: none;
-  border-radius: 2px;
-}
 .weather-card {
   background: none;
   padding: 10px;
   color: #5c7a7b;
 }
 
-@media screen and (max-width: 600px) {
-  img {
-    width: 100px !important;
-    margin: 0 auto;
-  }
+@media (max-width: 600px) {
   .weather-card {
     border-bottom: #5c7a7b 2.5px solid;
     width: 50%;
@@ -73,8 +66,9 @@ h4 {
     padding-bottom: 50px;
     border-bottom: #5c7a7b 2.5px solid;
   }
+
 }
-@media screen and (min-width: 600px) {
+@media (min-width: 601px) {
   .weather-card img {
     color: #5c7a7b;
     width: 80px;
