@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello! This is a test🥰</h1>
-</body>
+<html>
+  <head>
+    <title>Weather</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+    <link href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container card p-3 mt-2 bg-blue px-10">
+      <div class="inner-card">
+        <div class="row my-3 top-weather">
+          <div class="col-8 ps-3 ">
+            <form class="d-inline-flex ms-4 ">
+              <input type="text" class="me-2" id="input-text" />
+              <input
+                type="submit"
+                value="search"
+                class="search-btn btn"
+                id="search-btn"
+              />
+              <button class="search-btn btn ms-1" id="location-btn">current location</button>
+            </form>            
+            <p class="ms-4 mt-2 search-result" id="display-search"></p>
+            <div class="d-flex justify-content-start">
+              <h1 class="text-center ms-4" id="city">New York</h1>
+            </div>
+             <div class="mt-2 ms-4">
+              <h2 id="date-time"></h2>
+              <h2 id="condition">
+                Sunny
+              </h2>
+              <h3>
+                <span id="showTemp">22º</span>
+                <span class="temp-text">
+                  <span id="showC"> C</span>/<span id="showF">F</span>
+                </span>
+              </h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
 </html>
